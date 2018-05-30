@@ -7,17 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51C95D620214CBF00620907 /* To-Do.txt in Resources */ = {isa = PBXBuildFile; fileRef = D51C95D520214CBF00620907 /* To-Do.txt */; };
+		D5336E3420288E0F003E3EDE /* CelulaFatura.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5336E3320288E0F003E3EDE /* CelulaFatura.swift */; };
+		D5AFBDD2201FDED900076F32 /* DadoFatura.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFBDD1201FDED900076F32 /* DadoFatura.swift */; };
+		D5AFBDD4201FDF6A00076F32 /* DadoFaturaDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFBDD3201FDF6A00076F32 /* DadoFaturaDefaults.swift */; };
+		D5EC7C602020B93000F694B7 /* ParseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC7C5F2020B93000F694B7 /* ParseUtils.swift */; };
 		D5EE009B201F8FE700125FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE009A201F8FE700125FF8 /* AppDelegate.swift */; };
-		D5EE009D201F8FE700125FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE009C201F8FE700125FF8 /* ViewController.swift */; };
+		D5EE009D201F8FE700125FF8 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EE009C201F8FE700125FF8 /* PrincipalViewController.swift */; };
 		D5EE00A0201F8FE700125FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE009E201F8FE700125FF8 /* Main.storyboard */; };
 		D5EE00A2201F8FE700125FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EE00A1201F8FE700125FF8 /* Assets.xcassets */; };
 		D5EE00A5201F8FE700125FF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EE00A3201F8FE700125FF8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D51C95D520214CBF00620907 /* To-Do.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "To-Do.txt"; sourceTree = "<group>"; };
+		D5336E3320288E0F003E3EDE /* CelulaFatura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaFatura.swift; sourceTree = "<group>"; };
+		D5AFBDD1201FDED900076F32 /* DadoFatura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadoFatura.swift; sourceTree = "<group>"; };
+		D5AFBDD3201FDF6A00076F32 /* DadoFaturaDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadoFaturaDefaults.swift; sourceTree = "<group>"; };
+		D5EC7C5F2020B93000F694B7 /* ParseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseUtils.swift; sourceTree = "<group>"; };
 		D5EE0097201F8FE700125FF8 /* Calcula Cartao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calcula Cartao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EE009A201F8FE700125FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5EE009C201F8FE700125FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5EE009C201F8FE700125FF8 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 		D5EE009F201F8FE700125FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5EE00A1201F8FE700125FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EE00A4201F8FE700125FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				D5EE009A201F8FE700125FF8 /* AppDelegate.swift */,
-				D5EE009C201F8FE700125FF8 /* ViewController.swift */,
+				D5336E3320288E0F003E3EDE /* CelulaFatura.swift */,
+				D5EE009C201F8FE700125FF8 /* PrincipalViewController.swift */,
+				D5AFBDD1201FDED900076F32 /* DadoFatura.swift */,
+				D5AFBDD3201FDF6A00076F32 /* DadoFaturaDefaults.swift */,
+				D5EC7C5F2020B93000F694B7 /* ParseUtils.swift */,
 				D5EE009E201F8FE700125FF8 /* Main.storyboard */,
 				D5EE00A1201F8FE700125FF8 /* Assets.xcassets */,
 				D5EE00A3201F8FE700125FF8 /* LaunchScreen.storyboard */,
 				D5EE00A6201F8FE800125FF8 /* Info.plist */,
+				D51C95D520214CBF00620907 /* To-Do.txt */,
 			);
 			path = "Calcula Cartao";
 			sourceTree = "<group>";
@@ -123,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51C95D620214CBF00620907 /* To-Do.txt in Resources */,
 				D5EE00A5201F8FE700125FF8 /* LaunchScreen.storyboard in Resources */,
 				D5EE00A2201F8FE700125FF8 /* Assets.xcassets in Resources */,
 				D5EE00A0201F8FE700125FF8 /* Main.storyboard in Resources */,
@@ -136,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EE009D201F8FE700125FF8 /* ViewController.swift in Sources */,
+				D5EE009D201F8FE700125FF8 /* PrincipalViewController.swift in Sources */,
+				D5AFBDD2201FDED900076F32 /* DadoFatura.swift in Sources */,
 				D5EE009B201F8FE700125FF8 /* AppDelegate.swift in Sources */,
+				D5AFBDD4201FDF6A00076F32 /* DadoFaturaDefaults.swift in Sources */,
+				D5EC7C602020B93000F694B7 /* ParseUtils.swift in Sources */,
+				D5336E3420288E0F003E3EDE /* CelulaFatura.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
