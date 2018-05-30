@@ -1,0 +1,11 @@
+/* 
+  To-Do.strings
+  Calcula Cartao
+
+  Created by Thadeu Soares on 30/01/18.
+  Copyright © 2018 Thadeu SA. All rights reserved.
+*/
+Separar cellprototype em uma classe e incluir a descrição do item, preencher realizando o parse
+Incluir meses para comparação
+Incluir data de fechamento do cartão
+Incluir menu inicial
